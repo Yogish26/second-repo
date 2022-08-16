@@ -1,0 +1,145 @@
+
+
+
+Shell Script:
+
+#!/bin/bash [shebang] --> invoke the bash shell
+
+========================================================
+
+exp1.sh
+
+#!/bin/bash
+echo "Hi This is devops class"
+echo "Hello world"
+
+execution:
+
+./exp1.sh
+sh exp1.sh
+bash exp1.sh
+
+========================================================
+
+echo $SHELL
+
+========================================================
+
+exp2.sh
+
+#!/bin/bash
+echo "i am $1"
+echo "I am from $2"
+
+./exp2.sh
+
+input arguments:
+ $1, $2, $3 .... $9
+
+from 10th onwards ${10}, ${11}, ${12}......
+
+$0 --> shell script name
+$1 --> first argument
+$2 --> second argument
+...
+..
+$9 --> ninth argument
+${10} --> tenth argument
+
+========================================================
+exp3.sh
+
+
+#!/bin/bash
+var="Test"
+age=35
+num="2 4 6 8"
+echo "This is $var and the age is $age"
+echo "The even numbers are $num"
+
+./exp3.sh
+
+
+========================================================
+
+"if" statement:
+
+if [ epxression/ conditions]
+then
+statements(1)
+else
+statements(2)
+fi
+
+
+#!/bin/bash
+if [ $1 -eq 5 ]
+then
+echo "$1 is Five"
+else
+echo "$1 is not Five"
+fi
+
+./exp4.sh
+
+parameters:
+
+-eq --> equals
+-lt --> less than
+-le --> less than or equal
+-gt --> greater than
+-ge --> greater than or equal
+-ne --> not equal
+
+
+
+========================================================
+
+Biggest of two no's
+
+exp5.sh
+
+#!/bin/bash
+if [ $1 -gt $2 ]
+then
+echo "$1 is Big"
+else
+echo "$2 is Big"
+fi
+
+
+./exp5.sh 3 5 
+
+========================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

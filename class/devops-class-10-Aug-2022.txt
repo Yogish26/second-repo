@@ -1,0 +1,138 @@
+
+
+Special characters of global variables:
+
+$? --> status of command or status of last command  
+ '0' --> means success
+	 'non 0' --> failure
+
+$$ --> 'process ID' current running process
+
+$! --> 'process ID of last executed command went into background
+
+$* --> All the arguments pass to shell script
+
+$@ --> All the arguments pass to shell script stored in a array formate. [ 2 4 6 8 ]
+
+$# --> Total no of arguments pass to a script. 
+
+$1 --> first argument 
+$2 --> second argument
+
+========================================================================
+ 
+#!/bin/bash
+if [ $# -ne 2 ]
+then
+echo "Enter only 2 arguments"
+exit
+fi
+if [ $1 -gt $2 ]
+then
+echo "$1 is Big"
+else
+echo "$2 is Big"
+fi
+
+
+========================================================================
+write a script to check given name is file or directory 
+
+#!/bin/bash
+echo "Enter the name to check:"
+read name
+if [ -f $name ]
+then
+echo "$name is a file"
+elif [ -d $name ]
+then
+echo "$name is a directory"
+else
+echo "$name doesn't exist"
+fi
+
+========================================================================
+
+
+run script in background
+
+./test.sh
+
+Then Ctrl+Z --> it will be paused
+
+Then Enter 'bg' --> it will run in background
+
+tocheck PID of process went into background --> "echo $!"
+
+========================================================================
+
+nohup ./test.sh & --> run your script in background without hangup
+
+
+========================================================================
+
+Cron JOB-->
+
+* 		* 		* 			* 		*
+min		hour		date			month 		day of month
+(0-59) 	(0-23) 	(1-31/30/28) 	(1-12)		(0-6)
+
+every day 7:00 pm
+
+* * * * *
+
+00 19 * * *
+
+*/05 * * * *
+
+
+crontab -l --> list the cronjobs
+
+========================================================================
+
+
+Assign:
+
+1. Biggest of 3 no's
+
+2. write a script to add, substract, multiply and devide of two no's
+
+3. write a script to check given name is a file or directory, if its a file then display the content of file and if its a directory the list all the file in that directory.
+
+4. write s script to find factorial of a given number.
+
+5. write a script to add a given set of numbers: numbers="2 4 6 8 10"
+
+
+========================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,64 @@
+
+
+
+22. head filename is used to display first 10 lines in file
+23. head -5 filename
+24. tail filename is used to display lost 10 lines in file
+25. tail -1 f1
+26. tail -30 f1
+27. | [pipe] 
+28. head -12 f1|tail -2 
+29. tail -100 filename|head -1
+30. grep -i "testing" f1 it is similar to >> append (we use it in CLI)  -i(case sensitivity)
+31. grep -in "testing" f1 number of lines 
+32. grep -ic "testing" f1 size of pattern 
+33. grep -iw "test" f1  
+33. grep -ilR "testing" *
+34. grep -ie "pattern1" -ie "pattern2" filename
+35. chmod [change mode] to change the permission of the files 
+36. chmod 777 f1
+37. chmod 777 directory
+38. chmod -R 777 directory
+38. chmod 651 file
+39. chmod 765 file
+40 chmod a+rwx file a-> all 
+
+
+	owner			group			other_user
+	r w x			r w x			r w x
+	2^2 2^12^0.             4 - 1			4--
+	4 2 1=7
+
+41. tee 
+42. ls -ltr|tee log
+43. ls -ltr|tee -a log
+44. umask: used to change the system permission
+	umask 777: no perm
+	umask 000
+
+	o full g- r o - r
+	umask 011
+45. cp [copy]
+46. cp file /home/file
+47. cp -r directory1 ditectory2
+49. cp -i file d2/
+    cp -r dir1/* dir2 to copy the files present in dir1 
+    cp -p same permission 
+50. top ---to check back ground usage
+1. awk is also used as function like cut but in cut commaned if the 
+delimiter having more then one space b/w the field cut won't work properly but in awk it will delimiter all the space 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

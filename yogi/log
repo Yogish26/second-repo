@@ -1,0 +1,14 @@
+total 21
+-rw-r--r-- 1 user 197121    0 Aug  7 22:15 f3
+-rw-r--r-- 1 user 197121    0 Aug  7 22:15 f4
+-rw-r--r-- 1 user 197121  979 Aug  7 22:36 f1
+-rw-r--r-- 1 user 197121  979 Aug  7 23:04 log1
+-rw-r--r-- 1 user 197121 1958 Aug  7 23:04 f2
+-rw-r--r-- 1 user 197121  288 Aug  7 23:23 log
+-rw-r--r-- 1 user 197121 1674 Aug  7 23:31 yogi.pem
+drwxr-xr-x 1 user 197121    0 Aug 10 18:28 d1/
+-rwxr-xr-x 1 user 197121  282 Aug 11 07:49 exp1.sh*
+-rwxr-xr-x 1 user 197121  299 Aug 11 07:54 exp2.sh*
+-rwxr-xr-x 1 user 197121  147 Aug 11 08:01 dfile.sh*
+-rwxr-xr-x 1 user 197121  116 Aug 11 08:05 fact.sh*
+drwxr-xr-x 1 user 197121    0 Aug 11 14:37 assign/

@@ -1,0 +1,34 @@
+
+
+8. cd <path> to change the dir
+9. cd .. back to dir
+10. touch <file_name>
+11. touch f1 f2 f3 is used to creat a file 
+12. cat filename is used to display contant of the file 
+13. vi filename vi is editor to edit anyfile use vi filename
+	press 'i' for insert mode 
+	'esc' button to exit from insert mode
+	:wq! --> write and quit(save and quit)
+	:q! --> quit(quit without saving)
+	:set nu or set number( to count number of lines in file )
+	:/pattern --> then press 'n' to search the pattern in vi editor  
+	:%s/software/hardware/g (to change pattern like saftware to hardware in gile ) wher g is called globally
+	:1s/pattern/new_pattern/g (1s means cahnges made in )first line)
+	:1,5s/pattern/new_pattern/g( 1, 5s means 1,2,3,4,5 changes made in all 5 lines) 
+	:5,$s/pattern/new_pattern/g:::
+
+14. wc filename
+	wc -l filename
+	wc -w filename
+	wc -c filename it shows memory
+	wc -m filename it shows number of character
+15. echo "Print statement"( to print the statements in CLI)
+16. echo -e "This is to print \nStatements"(( to print the n .echo "dystatements in CLI)
+
+17. > [Redirect] ex: cat file_name > file_name to save the output it saves only recent output
+18. >> [append] it saves recent and old output
+19. du -sh filename to know size of a file name 
+20. du -sh directory_name to know size of directory
+    du -sh directory_name/* to display all the file size 
+21. df -h to know the system memory 
+22. free   to know the memory of RAM 

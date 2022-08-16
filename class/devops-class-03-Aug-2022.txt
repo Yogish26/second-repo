@@ -1,0 +1,33 @@
+
+
+
+
+Devops:
+
+1. Linux commands
+2. shell script
+3. Git
+4. Jenkins(Mvn)
+5. AWS
+6. Web applicartion server(Tomcat and httpd/apache)
+6. Ansible
+7. Docker
+8. Portainer
+9. Kubernetes(K8)
+10. Grafana and prometheus
+11. JIRA
+
+
+
+
+===================================================================
+
+Linux commands:
+
+1. pwd(present working directory)
+2. ls
+3. ls -l
+4. ls -lt
+5. ls -ltr
+6. mkdir <dir_name>
+7. mkdir dir1 dir2 dir3

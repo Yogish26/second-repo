@@ -1,0 +1,80 @@
+
+
+uname -a to check linux verstion 
+uname -v to check present working verstion 
+81. find:
+82. find . -inmame "test"
+83. find . -iname "file"
+84. find /Users/hareeshab/Documents -iname "file"
+85. find . -type f -mtime +5
+86. find . -type f -mtime -5
+87. find . -type d -mtime +5
+88. find . -type f -mmin -10
+89. find . -type f -mmin +10
+90. find . -type d -mtime +5
+91. find . -type f -perm 777
+92. find . -type d -perm 777
+93. find . -perm 644
+94. find . -type f -empty
+95. find . -type f -not -empty
+96. find . -maxdepth 1 -type f -iname "file"
+97. find . -maxdepth 3 -type d -iname "file"
+98. find . -type f -mmin -5|xargs rm -rf X-arguments(xargs) 
+99. links: softlink and hardlink softlink is short cut for file 
+	softlink: or symbolic link: or sym link:
+		ln -s </path-to-file> link_name
+
+	Hardlink: 'i'-node is uniq identification number  
+	ln </path-to-file> link_name
+100. ls -i filename is used
+to read a link -- readlink softlink/hardlink 
+01. uname -a
+102. ls -a
+103. lsof
+104. ssh [secure shell] port: 22
+	ssh -i test.pem user@server(ip_address/dnsnames)
+	
+	ssh user@server
+	password: ******
+
+	ssh user@server
+
+105. scp : 
+	scp -i test.pem file user@server:/home/path
+106 scp -i test.pem -r directory user@server:/home/path
+107. rsync:
+
+	rsync -avz -e "ssh -i test.pem" /path/to/file user@server:/path/copy
+
+108. ping is used to display ipaddress or hostname or dnsname 
+109.  netstat -na|grep "8080" to display net status of port 
+110. tar -cvf filename.gz folder/ 
+111. tar -xvf filename.gz
+112. zip -r test.zip folder/
+113. unzip test.zip
+netstat is used monitar network 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
